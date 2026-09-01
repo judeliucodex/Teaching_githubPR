@@ -12,6 +12,7 @@
 // ==========================================
 // --- I2C PINS & SENSOR CONFIG ---
 // ==========================================
+//123
 #define CUSTOM_SDA_PIN 21
 #define CUSTOM_SCL_PIN 22
 
@@ -56,8 +57,8 @@ String liveLogBuffer = "";
 // ==========================================
 // --- MOTOR & HARDWARE PINS ---
 // ==========================================
-const int dirPin  = 4;
-const int stepPin = 16;
+const int dirPin  = 10;
+const int stepPin = 12;
 
 #define BUTTON_PIN_1 19    // Top position switch / Sinking limit
 #define BUTTON_PIN_2 18    // Bottom position switch / Floating limit
